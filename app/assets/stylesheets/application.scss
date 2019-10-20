@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+ 
+// pages
+@import 'pages/top_pages';
+
+//template
+@import "template/_valiables";
+@import "template/_base";
+@import "template/_common";
+@import "template/_component";
+@import "template/_layout";
+@import "template/_utility";
+
+// gem
+@import "bootstrap";
